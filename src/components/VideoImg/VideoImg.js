@@ -25,10 +25,10 @@ function VideoImg() {
           <ProfileImgs />
         </Row>
 
-        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+        {/* <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
           <strong className="purple">Videos</strong>
         </h1>
-        <ProfileVideo />
+        <ProfileVideo /> */}
       </Container>
     </Container>
   );

@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 // import profile1 from "../../Assets/ProfileVideos/video1.mp4";
 // import profile2 from "../../Assets/ProfileVideos/video2.mp4";
 // import profile3 from "../../Assets/ProfileVideos/video3.mp4";
-import profile4 from "../../Assets/ProfileVideos/video4.mp4";
+// import profile4 from "../../Assets/ProfileVideos/video4.mp4";
 
 function ProfileVideo() {
   return (
@@ -28,12 +28,12 @@ function ProfileVideo() {
         </Col> */}
       </Row>
 
-      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         <Col xs={1} md={1} className="tech-icons">
           <video src={profile4} className="video-lying" controls></video>
           Hello
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }
