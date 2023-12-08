@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { AiFillStar, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { FaPhotoVideo } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -61,8 +62,23 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/videos-images"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaPhotoVideo style={{ marginBottom: "2px" }} /> Videos and
+                Images
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
-              <Button href="" target="_blank" className="fork-btn-inner">
+              <Button
+                href="https://github.com/tuannho0802/Music-Portfolio"
+                target="_blank"
+                className="fork-btn-inner"
+              >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>

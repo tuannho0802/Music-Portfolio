@@ -15,30 +15,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              sample
+              Learning at{" "}
+              <a
+                style={{
+                  color: "purple",
+                  fontSize: "larger",
+                  textDecoration: "none",
+                }}
+                href="https://vlu.edu.vn/"
+              >
+                <span>Van Lang University</span>
+              </a>
               <br />
               <br />
-              sample
+              Major -
               <i>
-                <b className="purple"> sample </b>
+                <b className="purple"> Vocal Music </b>
               </i>
               <br />
               <br />
-              sample &nbsp;
+              Living &nbsp;
               <i>
-                <b className="purple">sample </b> sample sample{" "}
-                <b className="purple">sample</b>
+                <b className="purple">in Ho Chi Minh City </b>
               </i>
               <br />
               <br />
-              sample <b className="purple">sample</b> sample
-              <i>
-                <b className="purple"> sample</b>
-              </i>
-              &nbsp; sample
-              <i>
-                <b className="purple">sample</b>
-              </i>
+              Has more than <b className="purple"> two years</b> of stage
+              performing experience
             </p>
           </Col>
           <Col md={4} className="myAvtar">

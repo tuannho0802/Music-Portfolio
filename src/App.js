@@ -14,6 +14,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import VideoImg from "./components/VideoImg/VideoImg";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/videos-images" element={<VideoImg />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
