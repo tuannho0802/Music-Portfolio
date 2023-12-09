@@ -19,13 +19,13 @@ html {
 }
 
 .video-stand {
-  max-width: 300px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 800px;
 }
 
 .video-lying {
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 700px;
+  max-height: 500px;
 }
 
 button:focus {
