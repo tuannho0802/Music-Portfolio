@@ -24,7 +24,7 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQeQVm5HA?width=576&height=1024&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Hẹn Một Mai - Nguyễn Duy Anh</p>
+          <p>Hẹn Một Mai - Nguyễn Duy Anh | Cover</p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -36,7 +36,7 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQejVm5Hz?width=720&height=1280&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Sam Smith - Writing's On The Wall</p>
+          <p>Writing's On The Wall - Sam Smith | Cover</p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -48,7 +48,7 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQejVm5Ha?width=720&height=1280&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Cơn Mưa Tháng 5 - Trần Lập</p>
+          <p>Cơn Mưa Tháng 5 - Trần Lập | Cover</p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -60,7 +60,7 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQe7Vm5Ku?width=720&height=1280&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Tìm Lại - Microwave</p>
+          <p>Tìm Lại - Microwave | Cover</p>
         </Col>
       </Row>
 
@@ -74,7 +74,7 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQeQVm5Hk?width=640&height=360&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Đại Lộ Tan Vỡ - Uyên Linh</p>
+          <p>Đại Lộ Tan Vỡ - Uyên Linh | Cover</p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -86,7 +86,7 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQe7Vm5Kv?width=600&height=360&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Bartender - Ngọt</p>
+          <p>Bartender - Ngọt | Cover</p>
         </Col>
       </Row>
     </div>

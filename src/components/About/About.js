@@ -49,7 +49,9 @@ function About() {
             <p>
               {" "}
               <span className="purple">Email:</span>{" "}
-              dinhbaotronghoang1410@gmail.com
+              <p style={{ fontSize: "23px" }}>
+                dinhbaotronghoang1410@gmail.com
+              </p>
             </p>
           </Row>
           <Row

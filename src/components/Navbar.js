@@ -9,6 +9,8 @@ import { CgGitFork } from "react-icons/cg";
 import { AiFillStar, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FaPhotoVideo } from "react-icons/fa";
 import { NavDropdown } from "react-bootstrap";
+import { GrContact } from "react-icons/gr";
+
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -66,8 +68,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <NavDropdown menuVariant="dark" title="Contact" id="nav-dropdown">
+            <NavDropdown
+              menuVariant="dark"
+              title={
+                <span style={{ borderBottom: "none" }}>
+                  <GrContact /> Contact
+                </span>
+              }
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item
+                style={{ border: "1px solid" }}
                 onClick={() =>
                   copyToClipboard("dinhbaotronghoang1410@gmail.com", "Email")
                 }
@@ -75,6 +86,7 @@ function NavBar() {
                 Email: dinhbaotronghoang1410@gmail.com
               </NavDropdown.Item>
               <NavDropdown.Item
+                style={{ border: "1px solid" }}
                 onClick={() => copyToClipboard("0336032659", "Phone")}
               >
                 Phone: <span style={{ fontFamily: "Arial" }}>0336032659</span>
