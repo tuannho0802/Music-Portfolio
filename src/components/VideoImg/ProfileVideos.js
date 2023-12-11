@@ -24,7 +24,10 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQeQVm5HA?width=576&height=1024&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Hẹn Một Mai - Nguyễn Duy Anh | Cover</p>
+          <p>
+            <p className="shadow-background">Hẹn Một Mai</p> - Nguyễn Duy Anh |
+            Cover
+          </p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -36,7 +39,10 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQejVm5Hz?width=720&height=1280&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Writing's On The Wall - Sam Smith | Cover</p>
+          <p>
+            <p className="shadow-background">Writing's On The Wall</p> - Sam
+            Smith | Cover
+          </p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -48,7 +54,10 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQejVm5Ha?width=720&height=1280&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Cơn Mưa Tháng 5 - Trần Lập | Cover</p>
+          <p>
+            <p className="shadow-background">Cơn Mưa Tháng 5</p> - Trần Lập |
+            Cover
+          </p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -60,7 +69,9 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQe7Vm5Ku?width=720&height=1280&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Tìm Lại - Microwave | Cover</p>
+          <p>
+            <p className="shadow-background">Tìm Lại</p> - Microwave | Cover
+          </p>
         </Col>
       </Row>
 
@@ -74,7 +85,10 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQeQVm5Hk?width=640&height=360&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Đại Lộ Tan Vỡ - Uyên Linh | Cover</p>
+          <p>
+            <p className="shadow-background">Đại Lộ Tan Vỡ</p> - Uyên Linh |
+            Cover
+          </p>
         </Col>
 
         <Col xs={1} md={1} className="tech-icons">
@@ -86,7 +100,9 @@ function ProfileVideo() {
             src="https://screenpal.com/player/c0lQe7Vm5Kv?width=600&height=360&ff=1&bg=transparent&download=1&embed=1"
             allowfullscreen="true"
           ></iframe>
-          <p>Bartender - Ngọt | Cover</p>
+          <p>
+            <p className="shadow-background">Bartender</p> - Ngọt | Cover
+          </p>
         </Col>
       </Row>
     </div>
